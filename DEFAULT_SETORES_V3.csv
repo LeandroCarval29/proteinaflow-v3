@@ -1,0 +1,269 @@
+﻿codigo;produto;familia;contextos;proteina_padrao;setor_default;revisar_setor
+5529;- 5 SASHIMI SALMAO;Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5536;- TEMAKI HOT;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5532;- ⁠5 ATUM MACARICADO;Peixaria / Proteínas;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;SIM
+5530;- ⁠5 SALMAO MACARICADO;Peixaria / Proteínas;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;SIM
+5531;- ⁠5 SASHIMI ATUM;Sushi / Japonês;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;NÃO
+5535;- ⁠BRIZA SALMAO;Peixaria / Proteínas;Rodízio;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5533;- ⁠ROLL COUVE CRISPY;Sushi / Japonês;Rodízio;;SUSHI_BAR;SIM
+5671;5  HADDOCK -SASHIMI;Sushi / Japonês;Rodízio;Haddock defumado;SUSHI_BAR;NÃO
+5552;5 sashimi de peixe branco;Sushi / Japonês;Rodízio | Sushi / Japonês;Peixe branco para sushi;SUSHI_BAR;NÃO
+1282;6 POP CHICKENS-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+1399;ABACATE -AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1378;ALFACE AMERICANA-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+1404;ALFACE ROXO-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1421;AMENDOA -AC;Outros;Poke Kauai;;POKE;NÃO
+1414;AMENDOIM-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5733;ANEIS DE LULA-RDZ;Rodízio;Rodízio;Lula inteira;KITCHEN;NÃO
+1379;ARROZ JAPONES -AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5351;ARROZ JAPONES-BASE;Outros;Outros | Peixaria / Proteínas | Poke Kauai | Rodízio;;SUSHI_BAR;SIM
+5633;AZEITE TRUFADO;Outros;Outros | Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+1382;AZEITONA-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5310;BATATA FRITA- 1/2PORÇAO;Outros;Outros | Rodízio;;KITCHEN;NÃO
+1375;BOWL |  ATUM ESPECIAL;Peixaria / Proteínas;Peixaria / Proteínas;Atum para sashimi;POKE;NÃO
+1374;BOWL |  PULLED PORK BBQ;Peixaria / Proteínas;Peixaria / Proteínas;;POKE;NÃO
+1376;BOWL |  SALMÃO MAÇARICADO - LJDN;Peixaria / Proteínas;Peixaria / Proteínas;Salmão inteiro fresco;POKE;NÃO
+1372;BOWL |  SHRIMP-LJDN;Peixaria / Proteínas;Peixaria / Proteínas;;POKE;NÃO
+1370;BOWL |  SPECIAL CHICKEN-LJDN;Peixaria / Proteínas;Peixaria / Proteínas;;POKE;NÃO
+1373;BOWL |  STEAK & HOMUS;Outros;Outros;;POKE;NÃO
+5670;BRISA - MIX;Sushi / Japonês;Peixaria / Proteínas | Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5648;BRISA - SALMOM;Sushi / Japonês;Peixaria / Proteínas | Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5646;BRISA -ATUM;Sushi / Japonês;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;NÃO
+5647;BRISA -PEIXE BRANCO;Sushi / Japonês;Rodízio | Sushi / Japonês;Peixe branco para sushi;SUSHI_BAR;NÃO
+5541;BRIZA MIX;Outros;Rodízio;;SUSHI_BAR;NÃO
+1385;BRÓCOLIS AMERICANO-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5428;BURRITO -CAMARAO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;Camarão 31/40;KITCHEN;NÃO
+340;BURRITO CARNE MEX;Peixaria / Proteínas;Rodízio;;KITCHEN;NÃO
+1149;BURRITO POLLO CROC-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+997;BURRITO POLLO DESFIADO-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+998;BURRITO PORK-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+337;BURRITO STEAK MEX;Outros;Rodízio;;KITCHEN;NÃO
+995;BURRITO VEGGIE-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5307;BURRITOS-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+828;CAMARÃO;Peixaria / Proteínas;Peixaria / Proteínas | Poke Kauai;Camarão 31/40;POKE;NÃO
+1415;CASTANHA DE CAJÚ-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5405;CB  CHEFF- 20PEÇAS;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5418;CB CHEF-15 PEÇAS;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5885;CB CHEFF PREMIUM-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5884;CB CHEFF TRADICIONAL-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5406;CB CHEFF- 30 PEÇAS;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+855;CEBOLA CRISPY-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+1386;CEBOLA ROXA-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5469;CHEFF-BRISA;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+1416;CHIA-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+838;CHIPS DE BATATA DOCE;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5882;COMB  CHEF - 15UNDS PREMIUM;Outros;Outros | Rodízio;;SUSHI_BAR;NÃO
+5417;COMB  CHEF - 20UNDS;Outros;Rodízio;;SUSHI_BAR;NÃO
+5880;COMB  CHEF - 20UNDS PREMIUM;Outros;Outros | Rodízio;;SUSHI_BAR;NÃO
+5419;COMB CHEF - 30UNDS;Outros;Rodízio;;SUSHI_BAR;NÃO
+5881;COMB CHEF - 30UNDS PREMIUM;Outros;Outros | Rodízio;;SUSHI_BAR;NÃO
+1535;COUVE CRISPY -AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1392;CREAM CHEESE-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+6052;Ceviche de Peixe Branco;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio | Sushi / Japonês;Peixe branco para sushi;SUSHI_BAR;NÃO
+1396;EDAMAME-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5998;ESPETO DE CAMARAO-RDZ;Rodízio;Rodízio;Camarão 31/40;KITCHEN;NÃO
+5700;ESPETO DE CARNE-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5999;ESPETO DE FRANGO-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5662;ESPETOS  -JP RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5638;ESPUMA DE PONZU;Outros;Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+5892;Entradas & Acomp -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5637;FLOR DE SAL;Outros;Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+1361;FRANGO CROCANTE - PROTEINA;Peixaria / Proteínas;Peixaria / Proteínas | Poke Kauai;;KITCHEN;NÃO
+1383;GUACAMOLE -AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5346;GUACAMOLE -PO;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5663;GUIOSA  -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5702;GUIOSA DE FRANGO-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5701;GUIOSA DE PORK-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5645;HAND ROLLS -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;NÃO
+5681;HAND ⁠ROLL- ATUM;Sushi / Japonês;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;SIM
+5678;HAND ⁠ROLL- CAMARAO;Sushi / Japonês;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5679;HAND ⁠ROLL- PEIXE BRANCO;Sushi / Japonês;Rodízio;Peixe branco para sushi;SUSHI_BAR;SIM
+5680;HAND ⁠ROLL- SALMAO;Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;SIM
+5664;HARUMAKI  -JP RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5549;HARUMAKI CHOC BRANCO -LJDN;Sushi / Japonês;Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5550;HARUMAKI CHOC PRETO-LJDN;Sushi / Japonês;Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5404;HARUMAKI DE CAMARÃO -PO;Sushi / Japonês;Rodízio | Sushi / Japonês;Camarão 31/40;KITCHEN;NÃO
+5403;HARUMAKI DE FRANGO -PO;Sushi / Japonês;Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5402;HARUMAKI DE LEGUMES -PO;Sushi / Japonês;Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5863;HARUMAKI DE SALMÃO -PO;Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;KITCHEN;NÃO
+5551;HARUMAKI DOCE DE LEITE -LJDN;Sushi / Japonês;Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+1389;HOMUS - AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5784;HOT DOG MEX;Outros;Rodízio;;KITCHEN;NÃO
+5544;JOY CAMARAO;Sushi / Japonês;Rodízio | Sushi / Japonês;Camarão 31/40;SUSHI_BAR;NÃO
+5543;JOY GELEIA DE PIMENTA;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5672;JOY MARACUJA  (DUPLA);Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5542;JOY PHILADELPHIA;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5534;JOY SALMAO (DUPLA);Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5545;JOY TARTAR SALMA;Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5673;JOY TRUFADO  (DUPLA);Sushi / Japonês;Rodízio;;SUSHI_BAR;NÃO
+5891;JOYS DULPAS -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;NÃO
+5783;KATSU SANDU;Outros;Outros | Rodízio;;KITCHEN;NÃO
+1391;MANGA-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1422;MILHO CROCANTE-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1393;MILHO-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5401;MISSOSHIRO -PO;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+1380;MIX DE COGUMELOS-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5347;MIX DE FOLHAS-BASE;Outros;Outros | Poke Kauai | Rodízio;;SUSHI_BAR;SIM
+1402;MIX DE QUEIJO -AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5325;MOLHO AGRIDOCE;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5327;MOLHO BARBECUE    -LJD;Outros;Rodízio;;SUSHI_BAR;SIM
+5332;MOLHO CHIPOTLE    -LJD;Outros;Rodízio;;SUSHI_BAR;SIM
+5634;MOLHO PESTO;Outros;Outros | Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+819;MOLHO SHOYO;Outros;Outros | Poke Kauai;;POKE;NÃO
+133;MOLHO SWEET CHILLI;Outros;Outros | Poke Kauai;;POKE;NÃO
+5398;MOLHO SWEET CHILLI -ljdn;Outros;Rodízio;;SUSHI_BAR;SIM
+5510;MOLHO TÁRTARO 30GR-LJD;Outros;Rodízio;;SUSHI_BAR;SIM
+5416;NACHOS COM TARTAR DE SALMÃO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+332;NACHOS DA CASA;Outros;Outros | Rodízio;;KITCHEN;NÃO
+331;NACHOS PEQUENA;Outros;Rodízio;;KITCHEN;NÃO
+5317;NACHOS- 1/2PORÇAO;Outros;Outros | Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+1403;NORI EM TIRAS -AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1420;NOZES-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1425;PARMESÃO-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5425;PED RDZ JAPA FRIO;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5308;PED RDZ JAPA QUENTE;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5396;PED RDZ MEXICANO;Rodízio;Rodízio;;KITCHEN;NÃO
+5724;PED RDZ POKES;Rodízio;Rodízio;;POKE;NÃO
+5970;PED RDZ PORÇOES & MOLHOS;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5477;PED RDZ SOBREMESA;Rodízio;Rodízio;;SUSHI_BAR;SIM
+1409;PEPINO -AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+1405;PICLES DE PEPINO-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+1349;POKE - ATUM - AC 6 SIDES;Poke Kauai;Poke Kauai;Atum para sashimi;POKE;NÃO
+1348;POKE - CAMARÃO - AC 6 SIDES;Poke Kauai;Peixaria / Proteínas | Poke Kauai;Camarão 31/40;POKE;NÃO
+1347;POKE - COGUMELOS - AC 6 SIDES;Poke Kauai;Poke Kauai;;POKE;NÃO
+1433;POKE - FILÉ MIGNON - AC 6 SIDES;Poke Kauai;Poke Kauai;;POKE;NÃO
+1343;POKE - FRANGO CROCANTE - AC 6 SIDES;Poke Kauai;Poke Kauai;;POKE;NÃO
+1344;POKE - FRANGO GRILL - AC 6 SIDES;Poke Kauai;Poke Kauai;;POKE;NÃO
+1475;POKE - MONTE O SEU:;Poke Kauai;Poke Kauai;;POKE;NÃO
+1345;POKE - PORK BBQ - AC 6 SIDES;Poke Kauai;Poke Kauai;;POKE;NÃO
+1431;POKE - SALMÃO - AC 6 SIDES;Poke Kauai;Peixaria / Proteínas | Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+1432;POKE - SALMÃO MAÇARICADO- AC 6 SIDES;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+5001;POKE DE ATUM;Poke Kauai;Poke Kauai;Atum para sashimi;POKE;NÃO
+801;POKE DE ATUM;Poke Kauai;Poke Kauai;Atum para sashimi;POKE;NÃO
+5003;POKE DE CAMARÃO;Poke Kauai;Poke Kauai;Camarão 31/40;POKE;NÃO
+803;POKE DE CAMARÃO;Poke Kauai;Poke Kauai;Camarão 31/40;POKE;NÃO
+5769;POKE DE CEVICHE;Poke Kauai;Poke Kauai;;POKE;NÃO
+5465;POKE DE CEVICHE-LJDN;Poke Kauai;Poke Kauai;;POKE;NÃO
+5000;POKE DE SALMÃO;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+800;POKE DE SALMÃO;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+5002;POKE DE SALMÃO PREMIUM;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+802;POKE DE SALMÃO PREMIUM;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+5709;POKE GD MIX COGUMELOS;Poke Kauai;Rodízio;;POKE;NÃO
+5705;POKE GD SALMAO;Poke Kauai;Rodízio;Salmão inteiro fresco;POKE;NÃO
+5704;POKE MD SALMAO;Poke Kauai;Rodízio;Salmão inteiro fresco;POKE;NÃO
+5005;POKE MIX DE COGUMELO;Poke Kauai;Poke Kauai;;POKE;NÃO
+805;POKE MIX DE COGUMELO;Poke Kauai;Poke Kauai;;POKE;NÃO
+5004;POKE MIX DE SALMÃO E CAMARÃO;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+804;POKE MIX DE SALMÃO E CAMARÃO;Poke Kauai;Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+5715;POKE PQ ATUM;Poke Kauai;Rodízio;Atum para sashimi;POKE;NÃO
+5718;POKE PQ CEVICHE;Poke Kauai;Rodízio;;POKE;NÃO
+5703;POKE PQ SALMAO;Poke Kauai;Rodízio;Salmão inteiro fresco;POKE;NÃO
+5723;POKES GD;Poke Kauai;Rodízio;;POKE;NÃO
+5722;POKES MD;Poke Kauai;Rodízio;;POKE;NÃO
+5721;POKES PQ;Poke Kauai;Rodízio;;POKE;NÃO
+5675;POLVO (DUPLA)- SUSHI;Sushi / Japonês;Rodízio;Polvo inteiro;SUSHI_BAR;NÃO
+5801;POPICA DE CAMARAO PREMIUM-RDZ;Rodízio;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5429;PORÇAO. MIX SHITAKE  E SHIMEJI;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5577;PORÇOES-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+10326;PROT- POP CHICKEN;Peixaria / Proteínas;Rodízio;;KITCHEN;NÃO
+1394;QUEIJO RICOTA-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5426;QUESADILA -CAMARAO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+1104;QUESADILHA  PORK-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+345;QUESADILHA CARNE MEX;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+1150;QUESADILHA POLLO CROC-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+1103;QUESADILHA POLLO DESFIADO-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+342;QUESADILHA STEAK MEX;Outros;Outros | Rodízio;;KITCHEN;NÃO
+1102;QUESADILHA TRADICIONAL-RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5582;QUESADILLA CHOCOLATE -RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+1145;QUESADILLA DOCE DE LEITE -RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5576;QUESADILLA-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5348;QUINOA-BASE;Outros;Outros | Peixaria / Proteínas | Poke Kauai | Rodízio;;SUSHI_BAR;SIM
+5632;RASPAS DE LIMÃO SICILIANO;Outros;Outros | Rodízio | Sushi / Japonês;;SUSHI_BAR;SIM
+5649;RLS - ATUM CRUNCH-- RDZ TRAD;Rodízio;Rodízio;Atum para sashimi;SUSHI_BAR;SIM
+5972;RLS - ATUM SPICY - 8 UNDS;Sushi / Japonês;Sushi / Japonês;Atum para sashimi;SUSHI_BAR;NÃO
+5651;RLS - ATUM SPICY - RDZ ESP;Rodízio;Rodízio;Atum para sashimi;SUSHI_BAR;SIM
+5408;RLS - ATUM SPICY -- RDZ ESP;Rodízio;Rodízio;Atum para sashimi;SUSHI_BAR;SIM
+5650;RLS - BATERA - RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5690;RLS - CALIFORNIA - - RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5655;RLS - CAMARÃO COM ABACATE - RDZ PREM;Rodízio;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5656;RLS - CAMARÃO COM OVAS - RDZ PREM;Rodízio;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5963;RLS - CAMARÃO CRISPY - RDZ PREM;Rodízio;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5653;RLS - CRISPY COUVE -- RDZ ESP;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5407;RLS - HARU HOT MIX - RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5693;RLS - HOSSMAKI FILADELPHIA - 4UNDS;Sushi / Japonês;Rodízio;;SUSHI_BAR;SIM
+5974;RLS - HOSSMAKI FILADELPHIA - 8 UNDS;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5654;RLS - HOT CAMARÃO- RDZ PREM;Rodízio;Rodízio;Camarão 31/40;SUSHI_BAR;SIM
+5975;RLS - HOT PHILADELPHIA - 8 UNDS;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5409;RLS - HOT PHILADELPHIA -RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5976;RLS - PHILADELPHIA - 8 UNDS;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5579;RLS - PHILADELPHIA -- RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5652;RLS - SALMÃO MAÇARICADO -RDZ ESP;Rodízio;Rodízio;Salmão inteiro fresco;SUSHI_BAR;SIM
+5964;RLS - SALMÃO SPICY - RDZ ESP;Rodízio;Rodízio;Salmão inteiro fresco;SUSHI_BAR;SIM
+5978;RLS - SAMÃO - 8 UNDS;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5691;RLS - SAMÃO SKIN - - RDZ TRAD;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5980;RLS - SHRIMP CRISPY - 8 UNDS;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5449;RODIZIO  EXECUTIVO;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5300;RODIZIO  INDV;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5301;RODIZIO  INDV FDS;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5302;RODIZIO  INFANTIL;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5252;RODIZIO  PREMIUM IND;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5734;RODIZIO-NOITE DAS MULHERES;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5659;ROLLS ESPECIAIS -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5660;ROLLS PREMIUM -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+5658;ROLLS TRADICIONAIS -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+1408;RUCULA -AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+5696;SALMOM TRUFAD (DUPLA)- SUSHI;Sushi / Japonês;Rodízio;Salmão inteiro fresco;SUSHI_BAR;NÃO
+822;SALMÃO;Peixaria / Proteínas;Peixaria / Proteínas | Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+1359;SALMÃO MAÇARICADO - PROTEINA;Peixaria / Proteínas;Peixaria / Proteínas | Poke Kauai;Salmão inteiro fresco;POKE;NÃO
+5665;SANDU -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;SIM
+1423;SEMENTE DE GIRASSOL-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+1406;SUNOMONO-AC;Outros;Outros | Poke Kauai;;POKE;NÃO
+5400;SUNOMONO-PO;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5352;SUOR CREAM -PO;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5644;SUSHI -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;NÃO
+5639;SUSHI- ATUM (DUPLA);Sushi / Japonês;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;NÃO
+5642;SUSHI- CAMARAO (DUPLA) PREMIUM;Sushi / Japonês;Rodízio;Camarão 31/40;SUSHI_BAR;NÃO
+5641;SUSHI- PEIXE BR (DUPLA);Sushi / Japonês;Rodízio;;SUSHI_BAR;NÃO
+5643;SUSHI- POLVO (DUPLA) PREMIUM;Sushi / Japonês;Rodízio;Polvo inteiro;SUSHI_BAR;NÃO
+5640;SUSHI- SALMOM (DUPLA);Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5965;SUSHIDOG-FRANGO CROCANTE;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5967;SUSHIDOG-SALMÃO SPICY;Sushi / Japonês;Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5968;SUSHIDOG-SHRIMP TROPICAL;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5966;SUSHIDOG-TUNA CRUNCH;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5888;Sashimis -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;NÃO
+5427;TACO -CAMARAO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;Camarão 31/40;KITCHEN;NÃO
+310;TACO CARNE MEX;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+1099;TACO POLLO CROCK-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+1098;TACO POLLO DESFIADO-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+999;TACO PORK-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+311;TACO STEAK;Outros;Outros | Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+315;TACO VEGGIE;Outros;Outros | Rodízio;;KITCHEN;NÃO
+5413;TACO- CALIFORNIA;Outros;Outros | Peixaria / Proteínas | Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5410;TACO- EBI POPCORN CHUNCH;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5411;TACO- SALMÃO SPICY;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio | Sushi / Japonês;Salmão inteiro fresco;KITCHEN;NÃO
+5412;TACO- TUNA SPICY;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio | Sushi / Japonês;;KITCHEN;NÃO
+5575;TACOS-RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5471;TEMAKI;Sushi / Japonês;Sushi / Japonês;;SUSHI_BAR;NÃO
+5538;TEMAKI ATUM;Sushi / Japonês;Rodízio | Sushi / Japonês;Atum para sashimi;SUSHI_BAR;NÃO
+5537;TEMAKI CALIFORNIA;Sushi / Japonês;Rodízio;;SUSHI_BAR;NÃO
+5540;TEMAKI CAMARAO;Sushi / Japonês;Rodízio | Sushi / Japonês;Camarão 31/40;SUSHI_BAR;NÃO
+5470;TEMAKI CAMARAO POPCORN;Sushi / Japonês;Sushi / Japonês;Camarão 31/40;SUSHI_BAR;NÃO
+5580;TEMAKI HOT PHILADELFIA;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5539;TEMAKI PHILADELFIA;Sushi / Japonês;Rodízio | Sushi / Japonês;;SUSHI_BAR;NÃO
+5581;TEMAKI SALMÃO;Sushi / Japonês;Rodízio | Sushi / Japonês;Salmão inteiro fresco;SUSHI_BAR;NÃO
+5889;TEMAKIS -JP RDZ;Rodízio;Rodízio;;SUSHI_BAR;NÃO
+818;TERIYAKI;Outros;Outros | Poke Kauai;;POKE;NÃO
+1397;TOMATE-AC;Outros;Outros | Peixaria / Proteínas | Poke Kauai;;POKE;NÃO
+329;TORTILHA CHOCOLATE;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+330;TORTILHA DOCE DE LEITE;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5415;TRIO DE DESGUSTAÇAO DE TACOS NIPPON;Sushi / Japonês;Sushi / Japonês;;KITCHEN;NÃO
+5887;Tacos Nippom-JP RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5692;URAMAKI FILADELFIA;Sushi / Japonês;Rodízio;;SUSHI_BAR;NÃO
+5473;Vulcano Brownie;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+5472;Vulcano Cookie;Outros;Outros | Rodízio;;SUSHI_BAR;SIM
+817;WASABI;Outros;Poke Kauai;;POKE;NÃO
+5661;YAKISOBA -JP RDZ;Rodízio;Rodízio;;KITCHEN;NÃO
+5423;YAKISSOBA- CAMARÃO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;Camarão 31/40;KITCHEN;NÃO
+5422;YAKISSOBA- CARNE;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+5421;YAKISSOBA- FRANGO;Peixaria / Proteínas;Peixaria / Proteínas | Rodízio;;KITCHEN;NÃO
+5420;YAKISSOBA- LEGUMES;Outros;Outros | Rodízio;;KITCHEN;NÃO

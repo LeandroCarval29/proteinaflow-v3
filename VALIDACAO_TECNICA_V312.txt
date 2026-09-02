@@ -1,0 +1,13 @@
+PROTEÍNAFLOW V3.12 — CHECKLIST DE VALIDAÇÃO LOCAL
+
+- app.js: validar com node --check
+- manifest.webmanifest: JSON válido
+- pacote sem assets/config.js
+- SQL 20 não contém TRUNCATE / DROP TABLE / DELETE FROM
+- produção nova sem menu_item_id obrigatório no frontend
+- sobra sem menu_item_id no frontend
+- produção nova usa stock_effect=false para não duplicar baixa
+- conciliação inclui perdas explicitamente
+- histórico legado preservado
+
+A escrita real no Supabase depende da execução do SQL 20 e da configuração ativa do projeto do usuário.

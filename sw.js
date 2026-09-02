@@ -1,0 +1,6 @@
+const CACHE='proteinaflow-v3-3.12.0-protein-reconciliation';
+const CORE=['./','./index.html','./manifest.webmanifest','./assets/app.css','./assets/app.js','./assets/vendor/jszip.min.js','./icons/icon-192.png','./icons/icon-512.png'];
+self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).catch(()=>null));});
+self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const k of await caches.keys())if(k!==CACHE)await caches.delete(k);await self.clients.claim();})());});
+async function networkFirst(req){try{const r=await fetch(req,{cache:'no-store'});if(r&&r.ok){const c=await caches.open(CACHE);c.put(req,r.clone()).catch(()=>{});}return r;}catch(e){return (await caches.match(req))||Response.error();}}
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const u=new URL(event.request.url);if(u.origin!==self.location.origin)return;const p=u.pathname;if(event.request.mode==='navigate'||/\/assets\/(config|app)\.(js|css)$/.test(p)||p.endsWith('/assets/vendor/jszip.min.js')||p.endsWith('/index.html')){event.respondWith(networkFirst(event.request));return;}event.respondWith(caches.match(event.request).then(hit=>hit||fetch(event.request).then(r=>{if(r&&r.ok)caches.open(CACHE).then(c=>c.put(event.request,r.clone())).catch(()=>{});return r;})));});

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#0f172a" name="theme-color"/>
+<meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+<meta content="no-cache" http-equiv="Pragma"/>
+<meta content="0" http-equiv="Expires"/>
+<link href="./manifest.webmanifest?v=3.12.0" rel="manifest"/>
+<link href="./icons/icon-192.png" rel="icon" type="image/png"/>
+<link href="./icons/icon-192.png" rel="apple-touch-icon"/>
+<title>ProteínaFlow V3 · 3.12.0</title>
+
+<link href="./assets/app.css?v=3.12.0" rel="stylesheet"/><meta content="3.12.0-V3-CLOSING-ANALYSIS-XML" name="proteinaflow-build"/></head>
+<body>
+<div class="toast" id="toast" role="status"></div>
+<section class="login-screen" id="login-screen">
+<div class="login-card">
+<div class="brand-mark">PF</div>
+<h1>ProteínaFlow</h1>
+<p class="muted">Estoque, perdas e produção de proteínas.</p>
+<div class="warning" hidden="" id="config-warning">Configuração central pendente. Preencha <b>assets/config.js</b>.</div>
+<form class="stack" id="login-form">
+<label>E-mail<input autocomplete="username" id="login-email" required="" type="email"/></label>
+<label>Senha<input autocomplete="current-password" id="login-password" required="" type="password"/></label>
+<button class="btn primary" type="submit">Entrar</button>
+</form>
+<button class="link-btn" id="forgot-btn" type="button">Esqueci minha senha</button>
+<details class="first-access">
+<summary>Primeiro acesso do administrador</summary>
+<form class="stack compact-top" id="signup-form">
+<label>Empresa<input name="company" placeholder="Nome da empresa" required=""/></label>
+<label>Seu nome<input name="name" placeholder="Nome do administrador" required=""/></label>
+<label>E-mail<input name="email" required="" type="email"/></label>
+<label>Senha<input minlength="8" name="password" required="" type="password"/></label>
+<button class="btn secondary" type="submit">Criar administrador inicial</button>
+</form>
+</details>
+<small class="version">ProteínaFlow V3 · ciclo Central → Produção → Sushi Bar/Poke/Cozinha · XML por setor</small>
+</div>
+</section>
+<div class="app-shell" hidden="" id="app-shell">
+<aside class="sidebar" id="sidebar">
+<div class="brand"><div class="brand-mark small">PF</div><div><b>ProteínaFlow</b><small id="company-label">—</small></div></div>
+<nav id="side-nav"></nav>
+<div class="sidebar-footer"><button class="nav-btn danger-text" id="logout-btn">Sair</button></div>
+</aside>
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<main class="main">
+<header class="topbar">
+<button aria-label="Menu" class="icon-btn" id="menu-btn">☰</button>
+<div><h2 id="page-title">Dashboard</h2><small id="unit-role-label">—</small></div>
+<div class="top-actions"><span class="cloud-pill" id="cloud-state">Conectando…</span><button class="icon-btn" hidden="" id="install-btn">⬇</button></div>
+</header>
+<div class="view" id="view"></div>
+</main>
+</div>
+<div id="modal-root"></div>
+<div class="version-fixed">PF V3 · 3.12.0 CONCILIAÇÃO DE PROTEÍNAS</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="./assets/vendor/jszip.min.js?v=3.12.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.2/dist/jspdf.plugin.autotable.min.js"></script>
+<script src="./assets/config.js?v=3.12.0"></script>
+
+<script src="./assets/app.js?v=3.12.0"></script></body>
+</html>

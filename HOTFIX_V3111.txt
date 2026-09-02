@@ -1,0 +1,14 @@
+ProteínaFlow V3.11.1 — HOTFIX XML
+
+Correção objetiva:
+- restaurada a função parseXmlText(), removida acidentalmente da V3.11.0;
+- o erro "parseXmlText is not defined" impedia a validação/importação de qualquer XML;
+- não há alteração de banco e não há SQL novo;
+- mantém os dados já lançados e o mesmo assets/config.js atual.
+
+Instalação rápida:
+1. Substitua assets/app.js, index.html, sw.js, manifest.webmanifest, diagnostico.html e teste_importacao_xml.html.
+2. NÃO substitua assets/config.js.
+3. Commit no GitHub.
+4. Abra ?v=3.11.1 e confirme PF V3 · 3.11.1 XML PARSER FIX.
+5. Selecione o ZIP > Validar ZIP > Importar XML.

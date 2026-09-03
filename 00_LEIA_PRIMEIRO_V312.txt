@@ -1,0 +1,10 @@
+PROTEÍNAFLOW V3 · 3.12.0 — CORREÇÃO URGENTE
+
+1. Esta versão corrige o erro: parseXmlText is not defined.
+2. Produção e Sobra são somente de PROTEÍNAS.
+3. Produção não exige item de venda.
+4. Porções/itens continuam na análise XML × ficha técnica.
+5. Não há SQL novo para esta correção se o SQL 19 já foi executado.
+6. NÃO substitua assets/config.js. O pacote não contém esse arquivo.
+7. Abra depois: https://leandrocarval29.github.io/proteinaflow-v3/?v=3.12.0
+8. Rodapé esperado: PF V3 · 3.12.0 CONCILIAÇÃO + XML FIX

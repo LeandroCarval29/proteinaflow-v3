@@ -1,17 +1,17 @@
-PROTEÍNAFLOW V3.12 — INSTALAÇÃO
+PROTEÍNAFLOW V3 · 3.12.0
 
-1. NÃO apague o banco nem o repositório atual.
-2. No Supabase SQL Editor, execute uma vez: supabase/21_ATUALIZACAO_COMPLETA_V312.sql
-3. Esse arquivo já inclui a estrutura robusta de XML e a nova estrutura de Produção/Sobra por proteína.
-4. No GitHub proteinaflow-v3, substitua os arquivos deste pacote.
-5. NÃO substitua assets/config.js. Este pacote não contém config.js.
-6. Faça Commit changes.
-7. Abra: https://leandrocarval29.github.io/proteinaflow-v3/?v=3.12.0
-8. Confirme o rodapé: PF V3 · 3.12.0 CONCILIAÇÃO DE PROTEÍNAS
+Esta versão corrige o erro `parseXmlText is not defined` e reorganiza o ciclo para proteínas.
 
-NOVO FLUXO
-- Produção = proteína em kg, por setor.
-- Sobra = proteína física remanescente no fechamento.
-- Itens/Fichas = configuração comercial para o consumo teórico do XML.
-- Conciliação = estoque inicial + entradas + transferências recebidas - transferências enviadas - perdas - estoque final.
-- Comparações: consumo físico x produção apontada x XML teórico.
+PRODUÇÃO = proteína, não item de venda.
+SOBRA = proteína física que ficou no fechamento.
+PORÇÕES = continuam na análise XML × ficha técnica, separadas da Produção.
+
+Para o novo fluxo, execute o SQL 20. Para XML, mantenha o SQL 19 instalado.
+
+Arquivos:
+- supabase/19_FECHAMENTO_ANALISE_XML_V311.sql
+- supabase/20_FLUXO_LIMPO_PRODUCAO_PROTEINA_V312.sql
+- INSTALACAO_V312.txt
+- CHANGELOG_V312.md
+
+Não substitua o seu assets/config.js funcional.

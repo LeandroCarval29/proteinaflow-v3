@@ -1,13 +1,62 @@
-PROTEÍNAFLOW V3.12 — CHECKLIST DE VALIDAÇÃO LOCAL
+PROTEÍNAFLOW V3 · 3.12.0 — VALIDAÇÃO TÉCNICA
 
-- app.js: validar com node --check
-- manifest.webmanifest: JSON válido
-- pacote sem assets/config.js
-- SQL 20 não contém TRUNCATE / DROP TABLE / DELETE FROM
-- produção nova sem menu_item_id obrigatório no frontend
-- sobra sem menu_item_id no frontend
-- produção nova usa stock_effect=false para não duplicar baixa
-- conciliação inclui perdas explicitamente
-- histórico legado preservado
+Validações executadas nesta geração:
 
-A escrita real no Supabase depende da execução do SQL 20 e da configuração ativa do projeto do usuário.
+1) JavaScript principal
+- node --check assets/app.js -> OK
+- VERSION = 3.12.0 -> OK
+- função parseXmlText presente antes do importador -> OK
+
+2) XML fiscal real
+Foi testado o mesmo parser do app em Chromium headless com:
+XML_Fiscal(20260830-182835).zip
+Resultado:
+- 3.213 XMLs encontrados
+- 9.073 linhas fiscais válidas após cancelamento
+- 8.063 linhas analisáveis sem gorjeta
+- 1 cancelamento
+- 0 erros de leitura XML
+- período 01/08/2026 a 29/08/2026
+Portanto, o erro anterior "parseXmlText is not defined" foi eliminado no frontend desta versão.
+
+3) Teste independente do arquivo teste_importacao_xml.html
+- JSZip local 3.10.1 carregado -> OK
+- ZIP acima validado no navegador -> OK
+- 3.211 documentos fiscais válidos
+- 9.073 linhas fiscais válidas
+- 8.063 linhas analisáveis sem gorjeta
+
+4) Produção / Sobra
+- novo formulário de Produção não contém menu_item_id -> OK
+- Produção grava controle de proteína com stock_effect=false -> OK
+- Sobra continua por proteína/setor/estágio/peso -> OK
+
+5) Fluxo e cálculo automático
+Amostra matemática validada:
+- inteiro: 10,000 kg
+- pré-limpo: 8,200 kg -> rendimento pré-limpeza 82,00%
+- Central -> Sushi Bar: 8,200 kg
+- Poke: 3,000 kg
+- perda limpeza: 0,700 kg
+- Sushi Bar limpo destinado: 4,500 kg
+- total limpo beneficiado: 7,500 kg
+- rendimento final: 91,46%
+- rendimento total: 75,00%
+- custo inteiro: R$ 61,10/kg
+- custo pré-limpo: R$ 74,51/kg
+- custo final limpo: R$ 81,47/kg
+- valor econômico conservado: R$ 611,00
+
+6) Banco
+- SQL 20 é aditivo/não destrutivo.
+- adiciona from_stage/to_stage/lot/benefit_mode em stock_movements.
+- adiciona production_type/stage em production_batches.
+- não contém TRUNCATE, DROP TABLE ou DELETE FROM.
+
+7) Arquivos
+- manifest.webmanifest JSON válido -> OK
+- referências locais do index existem -> OK
+- assets/config.js NÃO está no pacote propositalmente; deve ser mantido do ambiente atual.
+
+Limitação de validação:
+A escrita no Supabase real do usuário só pode ser confirmada depois de executar o SQL 20 no projeto real e testar com a sessão autenticada. O parser XML foi validado localmente no navegador com o ZIP fiscal real.

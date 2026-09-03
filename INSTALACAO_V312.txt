@@ -1,0 +1,19 @@
+PROTEÍNAFLOW V3 · 3.12.0 — INSTALAÇÃO
+
+1. NÃO APAGUE os dados nem o projeto Supabase atual.
+2. Preserve o seu assets/config.js atual.
+3. Se o SQL 19 ainda não foi executado, execute: supabase/19_FECHAMENTO_ANALISE_XML_V311.sql
+4. Execute: supabase/20_FLUXO_LIMPO_PRODUCAO_PROTEINA_V312.sql
+5. No GitHub proteinaflow-v3, substitua os arquivos desta versão, mantendo seu assets/config.js.
+6. Faça Commit changes e aguarde o GitHub Pages atualizar.
+7. Abra: https://leandrocarval29.github.io/proteinaflow-v3/?v=3.12.0
+8. Confira o rodapé: PF V3 · 3.12.0 CONCILIAÇÃO + RENDIMENTO AUTO + XML FIX
+9. Teste primeiro teste_importacao_xml.html com o ZIP fiscal.
+10. Depois, no app: Análise Proteínas & XML → Escolher ZIP → Validar ZIP → Importar XML.
+
+TESTE DO NOVO FLUXO
+- Faça uma pré-limpeza no Central.
+- Transfira Central → Sushi Bar: o destino será LIMPO.
+- Registre a perda de limpeza no Sushi Bar em Perdas.
+- Transfira a fração Sushi Bar → Poke.
+- Abra Análise e verifique Beneficiamento automático.

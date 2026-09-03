@@ -1,4 +1,4 @@
-const CACHE='proteinaflow-v3-3.12.0-conciliacao-xml-fix';
+const CACHE='proteinaflow-v3-3.12.0-protein-reconciliation-auto-yield';
 const CORE=['./','./index.html','./manifest.webmanifest','./assets/app.css','./assets/app.js','./assets/vendor/jszip.min.js','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).catch(()=>null));});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{for(const k of await caches.keys())if(k!==CACHE)await caches.delete(k);await self.clients.claim();})());});

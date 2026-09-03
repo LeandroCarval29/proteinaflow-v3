@@ -1,14 +1,24 @@
-# ProteínaFlow V3.12
+# ProteínaFlow V3 · 3.12.0
 
-Versão orientada a **controle e conciliação de proteínas**. Produção e Sobra são lançamentos de proteína, não de item de venda. Os itens vendidos continuam existindo somente em **Itens & Fichas** para cruzamento com XML.
+Versão focada em conciliação diária de proteínas, com Produção e Sobra por proteína, XML corrigido e beneficiamento final inferido automaticamente.
 
-## Conciliação
+## Fluxo operacional
 
-`Estoque inicial + Entradas + Transferências recebidas - Transferências enviadas - Perdas - Outras baixas válidas - Estoque final físico = Consumo físico reconciliado`
+1. Recebimento: proteína inteira no Estoque Central.
+2. Beneficiamento: pré-limpeza manual no Central (inteiro → pré-limpo).
+3. Transferência Central → Sushi Bar: sai do Central como pré-limpo e entra no Sushi Bar com status **LIMPO**.
+4. Transferências Sushi Bar → Poke/Cozinha: distribuição de proteína limpa.
+5. Perdas de limpeza no Sushi Bar entram no cálculo do rendimento final.
+6. Sobra/Inventário registra a posição física final por proteína.
+7. XML cruza vendas × fichas técnicas para calcular consumo teórico e CMV.
 
-O resultado é comparado a:
+## Instalação
 
-- **Produção apontada em kg de proteína**;
-- **Consumo teórico XML = quantidade vendida × gramatura da ficha**.
+- Preserve o `assets/config.js` que já funciona no seu ambiente. Ele não está incluído no pacote.
+- Se ainda não executou o backend de XML, execute `supabase/19_FECHAMENTO_ANALISE_XML_V311.sql`.
+- Execute `supabase/20_FLUXO_LIMPO_PRODUCAO_PROTEINA_V312.sql`.
+- Publique os demais arquivos no repositório `proteinaflow-v3`.
 
-O sistema mantém o mesmo Supabase e preserva os dados existentes.
+## Correção XML
+
+A V3.12 inclui a função `parseXmlText`, ausente na V3.11 e responsável pelo erro `parseXmlText is not defined` durante a validação do ZIP.
